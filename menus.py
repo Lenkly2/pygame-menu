@@ -1,15 +1,22 @@
 import pygame
 import pygame_menu
-
+import pyautogui
+import os
+from ping_pong import *
 pygame.init()
-sw = 1366
-sh = 768
+sw = 600
+sh = 500
 window = pygame.display.set_mode((sw,sh))
 font = pygame_menu.font.FONT_8BIT
 mytheme = pygame_menu.Theme(widget_font=font,background_color=(3,45,123,0),
                                 title_background_color = (255,255,255))
 def start():
-    print("negro")
+
+    
+    starting()
+    
+
+    
 def end():
     pygame_menu,exit()
 
